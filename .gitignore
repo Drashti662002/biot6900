@@ -1,0 +1,11 @@
+# Raw downloads for Module 2 Part 3 — rebuilt by `python prepare_coad_data.py`.
+# Too large for git (the TCGA expression matrix alone is 135 MB).
+data/raw/
+
+.ipynb_checkpoints/
+__pycache__/
+
+# Raw LinkedOmics downloads for Part 2. The processed versions the notebook
+# actually reads are in data/, so these would just be duplicates in the repo.
+HS_CPTAC_BRCA_2018_*.cct
+HS_CPTAC_BRCA_2018_*.cbt
