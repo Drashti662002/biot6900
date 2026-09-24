@@ -2,7 +2,7 @@
 
 **BIOT 6900 · Module 2 · Part 3 · Drashti Bharat Bhanushali · 24 September 2026**
 
-*My professor approved swapping Alzheimer's for colon adenocarcinoma. The method is the same one Part 3 asks for: the layers come from different cohorts with no shared patients, so I joined them at the gene level.*
+*As professor approved that we can change the disease I am swapping Alzheimer's for colon adenocarcinoma. The method is the same one Part 3 asks for: the layers come from different cohorts with no shared patients, so I joined them at the gene level.*
 
 ---
 
