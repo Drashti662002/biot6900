@@ -1,5 +1,43 @@
 # BIOT 6900 coursework — Drashti Bharat Bhanushali
 
+## Repository layout
+
+Each module is a self-contained folder. **Open notebooks from inside their own
+module folder** — they use relative paths, so Jupyter's working directory has to
+be the module directory.
+
+```
+modules/
+├── module1/   environment setup, Biopython, database lookups
+├── module2/   multi-omics target identification (colon adenocarcinoma)
+│   └── data/        -> shared/module2_omics
+├── module3/   protein language models: toy, real data, assignment
+│   ├── data/        -> shared/module3_pack
+│   └── targets_coad.csv  -> ../module2/targets_coad.csv
+├── module4/   predicted structures and drug pockets
+│   └── structures/  -> shared/module4_structures
+└── module5/   variant interpretation from first principles (no data needed)
+
+shared/        one physical copy of every large dataset
+docs/          lab guides (PDF)
+```
+
+The `data/` and `structures/` entries inside each module are **symlinks** into
+`shared/`, so nothing is duplicated on disk and `Path("data")` still resolves
+exactly as the notebooks expect. Module 3 reads Module 2's `targets_coad.csv`
+through a symlink, so there is only ever one copy of that file.
+
+Running anything:
+
+```bash
+conda activate biot6900
+cd modules/module3        # or whichever module
+jupyter notebook          # then Kernel → Restart & Run All
+```
+
+Large inputs are gitignored, with a comment in `.gitignore` saying how to
+restore each one. Nothing gitignored is produced by this repo.
+
 ## Module 1
 I used Python and Biopython to check my environment, translate a DNA
 sequence, and retrieve information from PubMed, UniProt, PDB, and
@@ -56,6 +94,7 @@ report says so.
 
 ```bash
 conda activate biot6900
+cd modules/module2
 python prepare_coad_data.py     # one time, downloads about 175 MB into data/raw/
 jupyter notebook                # then Kernel → Restart & Run All
 ```
@@ -102,5 +141,42 @@ patients) but flat at RNA and protein, because a G12D mutation changes what the
 protein does rather than how much of it there is. The report argues that this
 is a limitation of scoring on abundance, not a finding about KRAS.
 
-Packages needed: numpy, pandas, scipy, jupyter (plus biopython for Module 1,
-and openpyxl if you want the independent-cohort check).
+## Module 3 — Protein Language Models for Target Triage & Variant Effects
+
+| File | What it is |
+|---|---|
+| `BIOT6900_Module3_Part1_ToyModel.ipynb` | Lab Part 1, the toy model. Runs offline. |
+| `BIOT6900_Module3_Part2_RealData.ipynb` (and `_2`) | Lab Part 2 on ~1,200 real human proteins. Identical apart from one sentence. |
+| `BIOT6900_Module3_Assignment.ipynb` | The graded assignment, run on my Module 2 colon adenocarcinoma targets. |
+| `targets_coad_w3.csv` | The re-ranked target list handed to Week 4. |
+| `data/` | Symlink to the Canvas data pack in `shared/module3_pack/`. |
+
+The data pack zip and the `.npy` embeddings are gitignored. To restore them,
+unzip `BIOT6900_Module3_DataPack.zip` into `shared/module3_pack/`.
+
+## Module 4 — Predicted structures and drug pockets
+
+| File | What it is |
+|---|---|
+| `BIOT6900_Module4_Part1_ToyModel.ipynb` | Toy model for pLDDT, PAE and pockets. |
+| `BIOT6900_Module4_Demo_DrugPocket.ipynb` | Acetazolamide (crystal 3HS4) placed in the AlphaFold model of carbonic anhydrase II. |
+| `BIOT6900_Module4_Part2_RealData_1.ipynb` | The same checks on p53, APOE and TREM2. |
+| `demo_pymol.pml`, `demo_chimerax.cxc` | Scripts that open the aligned demo scene. |
+
+`structures/` is gitignored — the notebooks re-download the AlphaFold models and
+PDB entries on first run. Section 2.6 needs `fpocket`
+(`conda install -c conda-forge fpocket`).
+
+## Module 5 — Variant interpretation from first principles
+
+`BIOT6900_Module5_Part1_Toy.ipynb` only. No data files, no downloads, no
+network: the toy gene is 90 bases written into the notebook.
+
+## Packages
+
+numpy, pandas, scipy, matplotlib, jupyter, and:
+
+* **Module 1** — biopython
+* **Module 2** — openpyxl, for the independent-cohort check only
+* **Module 3** — scikit-learn
+* **Module 4** — py3Dmol, and fpocket for the pocket section

@@ -1,0 +1,13 @@
+# BIOT 6900 demo: acetazolamide (3HS4) in the AlphaFold model of carbonic anhydrase II
+open /Users/drashtibhanushali/biot6900/structures/AF-P00918_aligned_to_3HS4.pdb
+open /Users/drashtibhanushali/biot6900/structures/3HS4.pdb
+color bfactor #1 palette alphafold
+hide #2 cartoons
+hide #2 atoms
+show #2:701 atoms
+show #2:ZN atoms
+style #2:ZN sphere
+color #2:701 magenta
+surface #1
+transparency #1 50
+view #2:701

@@ -1,11 +1,27 @@
-# Raw downloads for Module 2 Part 3 — rebuilt by `python prepare_coad_data.py`.
-# Too large for git (the TCGA expression matrix alone is 135 MB).
-data/raw/
-
-.ipynb_checkpoints/
+# ---- macOS / Python / Jupyter noise ----
+.DS_Store
 __pycache__/
+.ipynb_checkpoints/
 
-# Raw LinkedOmics downloads for Part 2. The processed versions the notebook
-# actually reads are in data/, so these would just be duplicates in the repo.
+# ---- Large downloaded inputs, excluded on purpose ----
+# Nothing here is produced by this repo; each line says how to get it back.
+
+# Module 2: raw LinkedOmics / TCGA downloads. Rebuilt by:
+#   cd modules/module2 && python prepare_coad_data.py
+# (the TCGA expression matrix alone is 135 MB)
+shared/module2_omics/raw/
 HS_CPTAC_BRCA_2018_*.cct
 HS_CPTAC_BRCA_2018_*.cbt
+
+# Module 3: the data pack from Canvas, and the embeddings inside it.
+# Restore by unzipping BIOT6900_Module3_DataPack.zip into shared/module3_pack/.
+# The .tsv tables stay tracked so results remain reproducible/citable.
+modules/module3/BIOT6900_Module3_DataPack.zip
+shared/module3_pack/*.npy
+
+# Module 4: AlphaFold / RCSB downloads and fpocket output.
+# Re-downloaded automatically by the notebooks on first run.
+shared/module4_structures/
+
+# ---- Generated artefacts ----
+modules/module4/drug_pocket_views.html

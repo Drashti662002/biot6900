@@ -1,0 +1,28 @@
+{
+  "created": "2026-10-01T05:18:40",
+  "dry_run": false,
+  "embedding_models": {
+    "main": {
+      "model": "esmc_300m",
+      "dim": 960,
+      "max_len": 2046,
+      "dtype": "float16"
+    },
+    "baseline": {
+      "model": "facebook/esm2_t12_35M_UR50D",
+      "dim": 480,
+      "max_len": 1022,
+      "dtype": "float16"
+    }
+  },
+  "variant_model": "facebook/esm2_t33_650M_UR50D",
+  "panel_n": 1201,
+  "panel_clinical_n": 401,
+  "panel_family_groups": 821,
+  "proteome_n": 20190,
+  "embedding_storage": "float16",
+  "labels": "Open Targets tractability, clinical precedence (Approved Drug, Advanced Clinical, Phase 1 Clinical); 'Druggable Family' deliberately excluded",
+  "numbering": "UniProt precursor numbering; APOE mature = precursor - 18",
+  "seed": 6900,
+  "uniprot_release": "2026_03"
+}
