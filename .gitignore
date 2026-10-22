@@ -25,3 +25,6 @@ shared/module4_structures/
 
 # ---- Generated artefacts ----
 modules/module4/drug_pocket_views.html
+
+# Module 4 assignment: downloaded structures folder
+structures/
