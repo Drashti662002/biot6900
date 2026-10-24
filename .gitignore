@@ -28,3 +28,7 @@ modules/module4/drug_pocket_views.html
 
 # Module 4 assignment: downloaded structures folder
 structures/
+
+# Module 5: cached MyVariant.info fetches, one TSV per gene.
+# Re-downloaded by the notebook on first run (delete a partial file and rerun).
+modules/module5/data/

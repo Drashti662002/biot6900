@@ -1,0 +1,34 @@
+rsid,hgvs_g,gene,consequence,aa_change,cadd_phred,revel,alphamissense,gnomad_af,band_LR,evidence,provisional_call
+rs368767518,chr10:g.94775488C>A,CYP2C19,missense_variant,R144S,27.9,0.44,0.6492,3.97738e-06,4.82,insufficient data (band n<10),VUS (unchanged)
+rs760289518,chr10:g.94775462G>T,CYP2C19,missense_variant,G135V,25.9,0.506,0.9204,,4.82,insufficient data (band n<10),VUS (unchanged)
+rs758114852,chr10:g.94775149T>A,CYP2C19,missense_variant,L87Q,25.2,0.557,0.6943,3.9764e-06,4.82,insufficient data (band n<10),VUS (unchanged)
+,chr10:g.94850007G>C,CYP2C19,missense_variant,D414H,24.1,0.19,0.4365,,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs371309036,chr10:g.94775450T>C,CYP2C19,missense_variant,L131P,24.0,0.407,0.9268,6.57428e-06,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs1848387818,chr10:g.94775071A>G,CYP2C19,missense_variant,Y61C,23.9,0.518,0.1916,,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+,chr10:g.94820586A>C,CYP2C19,missense_variant,T304P,23.7,0.506,0.6528,,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs371241592,chr10:g.94842942A>C,CYP2C19,missense_variant,Q356P,23.6,0.518,0.8658,6.56883e-06,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs372875966,chr10:g.94775393T>C,CYP2C19,missense_variant,I112T,23.0,0.528,0.6001,6.57307e-06,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs1175482704,chr10:g.94775133G>A,CYP2C19,missense_variant,V82M,22.2,0.146,0.1953,1.31473e-05,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs1249995558,chr10:g.94762851A>T,CYP2C19,missense_variant,D49V,22.0,0.264,0.2277,3.98016e-06,2.14,"supporting, pathogenic","VUS, leaning pathogenic"
+rs776970249,chr10:g.94850019A>G,CYP2C19,missense_variant,N418D,19.19,0.061,0.1469,2.62905e-05,0.07,"moderate, benign","VUS, leaning benign"
+rs1849675882,chr10:g.94852847C>A,CYP2C19,missense_variant,T469K,16.78,0.023,0.1928,,0.07,"moderate, benign","VUS, leaning benign"
+,chr10:g.94852850C>T,CYP2C19,missense_variant,T470I,15.84,0.177,0.1316,,0.07,"moderate, benign","VUS, leaning benign"
+rs1005681217,chr10:g.94820631G>A,CYP2C19,missense_variant,V319I,13.41,0.14,0.0983,6.57099e-06,0.07,"moderate, benign","VUS, leaning benign"
+,chr10:g.94781822T>C,CYP2C19,missense_variant,I215T,13.03,0.229,0.5187,,0.07,"moderate, benign","VUS, leaning benign"
+rs757115928,chr10:g.94820635C>T,CYP2C19,missense_variant,T320I,12.64,0.084,0.1893,1.31439e-05,0.07,"moderate, benign","VUS, leaning benign"
+rs1342382950,chr10:g.94842960T>C,CYP2C19,missense_variant,I362T,12.01,0.169,0.5712,1.31408e-05,0.07,"moderate, benign","VUS, leaning benign"
+rs1589348980,chr10:g.94780508G>T,CYP2C19,missense_variant,C164F,10.38,0.254,0.1088,,0.07,"moderate, benign","VUS, leaning benign"
+rs781038277,chr10:g.94762742T>A,CYP2C19,missense_variant,C13S,9.547,0.092,0.1155,1.31415e-05,0.07,"moderate, benign","VUS, leaning benign"
+rs747232605,chr10:g.94780631T>G,CYP2C19,missense_variant,I205S,9.06,0.141,0.3522,4.60284e-05,0.07,"moderate, benign","VUS, leaning benign"
+rs1312830418,chr10:g.94852834A>G,CYP2C19,missense_variant,K465E,1.896,0.045,0.0814,3.98004e-06,0.07,"moderate, benign","VUS, leaning benign"
+,chr10:g.94849955T>A,CYP2C19,missense_variant,H396Q,1.451,0.043,0.2413,,0.07,"moderate, benign","VUS, leaning benign"
+rs1384476546,chr10:g.94842969G>C,CYP2C19,missense_variant,S365T,0.73,0.121,0.2042,6.57117e-06,0.07,"moderate, benign","VUS, leaning benign"
+,chr10:g.94780612G>A,CYP2C19,missense_variant,E199K,0.047,0.061,0.0922,,0.07,"moderate, benign","VUS, leaning benign"
+rs200174624,chr10:g.94852827T>G,CYP2C19,missense_variant,I462M,0.037,0.06,0.0753,1.31385e-05,0.07,"moderate, benign","VUS, leaning benign"
+,chr10:g.94781842A>G,CYP2C19,missense_variant,I222V,0.001,0.007,0.0796,,0.07,"moderate, benign","VUS, leaning benign"
+,chr10:(?_96501534)_(96548712_?)del,CYP2C19,,,,,,,,not scored,VUS (unchanged)
+,chr10:(?_96533912)_(96598380_?)del,CYP2C19,,,,,,,,not scored,VUS (unchanged)
+,chr10:(?_96502305)_(96562508_?)del,CYP2C19,,,,,,,,not scored,VUS (unchanged)
+,chr10:(?_96562918)_(96606761_?)del,CYP2C19,,,,,,,,not scored,VUS (unchanged)
+,chr10:(?_96558287)_(96606761_?)del,CYP2C19,,,,,,,,not scored,VUS (unchanged)
+,chr10:(?_96534277)_(96599102_?)del,CYP2C19,,,,,,,,not scored,VUS (unchanged)
