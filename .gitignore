@@ -32,3 +32,9 @@ structures/
 # Module 5: cached MyVariant.info fetches, one TSV per gene.
 # Re-downloaded by the notebook on first run (delete a partial file and rerun).
 modules/module5/data/
+
+# Module 6 Part 3 (colorectal): cached 1000 Genomes regions and tabix indexes.
+# Rebuilt by: cd "modules/module 6/part3_crc" && python prepare_crc_data.py
+# (needs bcftools; the four CSVs it writes to data/ stay tracked)
+modules/module 6/part3_crc/data/raw/
+modules/module 6/part3_crc/build.log
