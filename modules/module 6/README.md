@@ -13,7 +13,7 @@
 | `BIOT6900_Module6_Part3_Graded_Starter.ipynb` | Part 3 starter, unchanged |
 | `data/`, `data.zip` | Canvas Alzheimer's data (used by Part 2 only) |
 | `part3_crc/BIOT6900_Module6_Part3_Graded_CRC.ipynb` | **The graded notebook**: colorectal cancer, `USE_DEMO = False`, Restart & Run All |
-| `part3_crc/Module6_Assignment_Report.md` | **The report**, with the proof-of-data block |
+| `part3_crc/module 6_report.docx` | **The report**, with the proof-of-data block |
 | `part3_crc/prepare_crc_data.py` | Builds the four input files from the PGS Catalog and 1000 Genomes |
 | `part3_crc/data/` | `genotypes.csv`, `variants.csv`, `score.csv`, `meta.csv`, `simulation_log.csv`, `README.md` |
 | `part3_crc/figures/` | PRS-by-ancestry and calibration plots |
