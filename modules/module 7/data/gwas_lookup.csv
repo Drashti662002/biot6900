@@ -1,0 +1,8 @@
+gene,gwas_snp,gwas_trait,gwas_p,gwas_pmid,gwas_study,gwas_author,gwas_mapped_genes
+MYC,rs6983267,colorectal cancer,2e-122,36539618,GCST90129505,Fernandez-Rozadilla C,CASC8;CCAT2;PCAT1;POU5F1B
+SMAD7,rs4939827,colorectal cancer,3.0000000000000003e-30,29917119,GCST006131,Schmit SL,SMAD7
+BMP4,rs4444235,colorectal cancer,8e-10,19011631,GCST000270,Houlston RS,DDHD1-DT;MIR5580
+TCF7L2,rs11196172,colorectal cancer,7e-20,36539618,GCST90129505,Fernandez-Rozadilla C,TCF7L2
+IL23R,rs11209026,ulcerative colitis,5e-28,21297633,GCST000964,Anderson CA,IL23R
+JAK2,rs10758669,ulcerative colitis,2e-25,21297633,GCST000964,Anderson CA,HNRNPA1P41;JAK2
+IL12B,rs6871626,ulcerative colitis,1e-21,21297633,GCST000964,Anderson CA,IL12B-AS1

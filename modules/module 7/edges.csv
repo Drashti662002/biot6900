@@ -1,0 +1,62 @@
+src,rel,dst,confidence,pvalue,source
+CA2,ASSOCIATED_WITH,Colon adenocarcinoma,medium,,multi-omics (TCGA/CPTAC)
+DES,ASSOCIATED_WITH,Colon adenocarcinoma,medium,,multi-omics (TCGA/CPTAC)
+CR2,ASSOCIATED_WITH,Colon adenocarcinoma,medium,,multi-omics (TCGA/CPTAC)
+MYH11,ASSOCIATED_WITH,Colon adenocarcinoma,medium,,multi-omics (TCGA/CPTAC)
+KRAS,ASSOCIATED_WITH,Colon adenocarcinoma,high,,somatic mutation (CPTAC)
+BRAF,ASSOCIATED_WITH,Colon adenocarcinoma,high,,somatic mutation (CPTAC)
+EGFR,ASSOCIATED_WITH,Colon adenocarcinoma,low,,pharmacology
+VEGFA,ASSOCIATED_WITH,Colon adenocarcinoma,low,,pharmacology
+TYMS,ASSOCIATED_WITH,Colon adenocarcinoma,low,,pharmacology
+TOP1,ASSOCIATED_WITH,Colon adenocarcinoma,low,,pharmacology
+PTGS2,ASSOCIATED_WITH,Colon adenocarcinoma,low,,pharmacology
+MYC,ASSOCIATED_WITH,Colon adenocarcinoma,high,1.9999999999999998e-122,GWAS
+SMAD7,ASSOCIATED_WITH,Colon adenocarcinoma,high,3.0000000000000003e-30,GWAS
+BMP4,ASSOCIATED_WITH,Colon adenocarcinoma,high,8e-10,GWAS
+TCF7L2,ASSOCIATED_WITH,Colon adenocarcinoma,high,7e-20,GWAS
+Colon adenocarcinoma,HAS_PHENOTYPE,Hematochezia,low,,HPO
+Colon adenocarcinoma,HAS_PHENOTYPE,Abdominal pain,low,,HPO
+Colon adenocarcinoma,HAS_PHENOTYPE,Iron deficiency anemia,low,,HPO
+Colon adenocarcinoma,HAS_PHENOTYPE,Weight loss,low,,HPO
+Colon adenocarcinoma,HAS_PHENOTYPE,Constipation,low,,HPO
+TCF7L2,PARTICIPATES_IN,WNT/beta-catenin signaling,low,,Reactome
+MYC,PARTICIPATES_IN,WNT/beta-catenin signaling,low,,Reactome
+SMAD7,PARTICIPATES_IN,TGF-beta/BMP signaling,low,,Reactome
+BMP4,PARTICIPATES_IN,TGF-beta/BMP signaling,low,,Reactome
+EGFR,PARTICIPATES_IN,EGFR-RAS-MAPK signaling,low,,Reactome
+KRAS,PARTICIPATES_IN,EGFR-RAS-MAPK signaling,low,,Reactome
+BRAF,PARTICIPATES_IN,EGFR-RAS-MAPK signaling,low,,Reactome
+VEGFA,PARTICIPATES_IN,VEGF signaling / angiogenesis,low,,Reactome
+TYMS,PARTICIPATES_IN,Nucleotide synthesis & DNA replication,low,,Reactome
+TOP1,PARTICIPATES_IN,Nucleotide synthesis & DNA replication,low,,Reactome
+PTGS2,PARTICIPATES_IN,Prostaglandin synthesis,low,,Reactome
+CA2,PARTICIPATES_IN,Carbon dioxide hydration,low,,Reactome
+CR2,PARTICIPATES_IN,Complement cascade,low,,Reactome
+DES,PARTICIPATES_IN,Smooth muscle contraction,low,,Reactome
+MYH11,PARTICIPATES_IN,Smooth muscle contraction,low,,Reactome
+Cetuximab,TARGETS,EGFR,high,,ChEMBL
+Panitumumab,TARGETS,EGFR,high,,ChEMBL
+Bevacizumab,TARGETS,VEGFA,high,,ChEMBL
+Encorafenib,TARGETS,BRAF,high,,ChEMBL
+Sotorasib,TARGETS,KRAS,high,,ChEMBL
+Adagrasib,TARGETS,KRAS,high,,ChEMBL
+Fluorouracil,TARGETS,TYMS,high,,ChEMBL
+Capecitabine,TARGETS,TYMS,high,,ChEMBL
+Irinotecan,TARGETS,TOP1,high,,ChEMBL
+Aspirin,TARGETS,PTGS2,high,,ChEMBL
+Acetazolamide,TARGETS,CA2,high,,ChEMBL
+rs6983267,OCCURS_IN,MYC,low,,GWAS Catalog (Module 6 PRS)
+rs4939827,OCCURS_IN,SMAD7,low,,GWAS Catalog (Module 6 PRS)
+rs4444235,OCCURS_IN,BMP4,low,,GWAS Catalog (Module 6 PRS)
+rs11196172,OCCURS_IN,TCF7L2,low,,GWAS Catalog (Module 6 PRS)
+KRAS G12D,OCCURS_IN,KRAS,high,,CPTAC somatic (Module 2)
+KRAS G12C,OCCURS_IN,KRAS,high,,CPTAC somatic (Module 2)
+BRAF V600E,OCCURS_IN,BRAF,high,,CPTAC somatic (Module 2)
+Ulcerative colitis,HAS_PHENOTYPE,Hematochezia,low,,HPO
+Ulcerative colitis,HAS_PHENOTYPE,Abdominal pain,low,,HPO
+Ulcerative colitis,HAS_PHENOTYPE,Iron deficiency anemia,low,,HPO
+IL23R,ASSOCIATED_WITH,Ulcerative colitis,high,5e-28,GWAS Catalog
+JAK2,ASSOCIATED_WITH,Ulcerative colitis,high,2e-25,GWAS Catalog
+IL12B,ASSOCIATED_WITH,Ulcerative colitis,high,1e-21,GWAS Catalog
+Ustekinumab,TARGETS,IL12B,high,,ChEMBL
+Tofacitinib,TARGETS,JAK2,high,,ChEMBL

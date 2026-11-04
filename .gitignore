@@ -38,3 +38,7 @@ modules/module5/data/
 # (needs bcftools; the four CSVs it writes to data/ stay tracked)
 modules/module 6/part3_crc/data/raw/
 modules/module 6/part3_crc/build.log
+
+# Module 7: Neo4j Aura credentials (never commit)
+.env
+Neo4j-*.txt

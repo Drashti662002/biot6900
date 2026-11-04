@@ -1,0 +1,55 @@
+name,kind,ensembl,gwas_p,rna_lfc,prot_lfc,druggability,status
+Colon adenocarcinoma,disease,,,,,,
+CA2,gene,ENSG00000104267,,-5.1977384968862514,-2.1573270833333336,0.769118,
+DES,gene,ENSG00000175084,,-4.207694117559554,-2.7913406250000015,0.0015295037,
+CR2,gene,ENSG00000117322,,-1.967715449164682,-1.4149333333333336,0.64031,
+MYH11,gene,ENSG00000133392,,-4.099701695380019,-2.7860343750000003,0.088701546,
+KRAS,gene,ENSG00000133703,,-0.435614917645692,-0.3351722222222222,0.49805653,
+BRAF,gene,ENSG00000157764,,0.2675744961416382,,0.69029766,
+EGFR,gene,ENSG00000146648,,-0.6259929163137663,-0.4375989583333333,0.7087451,
+VEGFA,gene,ENSG00000112715,,1.5982450254302196,,0.015644971,
+TYMS,gene,ENSG00000176890,,0.8501045590979248,,0.09320145,
+TOP1,gene,ENSG00000198900,,0.5296409483969509,0.908703125,0.09136959,
+PTGS2,gene,ENSG00000073756,,0.6021378949951219,1.1690363636363637,0.4639873,
+MYC,gene,ENSG00000136997,1.9999999999999998e-122,2.0466924886858067,,0.028788934,
+SMAD7,gene,ENSG00000101665,3.0000000000000003e-30,-0.7740625260123117,,0.022748897,
+BMP4,gene,ENSG00000125378,8e-10,1.6830312413648594,,0.079580806,
+TCF7L2,gene,ENSG00000148737,7e-20,-0.4604844416295597,,0.03854295,
+Hematochezia,phenotype,,,,,,
+Abdominal pain,phenotype,,,,,,
+Iron deficiency anemia,phenotype,,,,,,
+Weight loss,phenotype,,,,,,
+Constipation,phenotype,,,,,,
+WNT/beta-catenin signaling,pathway,,,,,,
+TGF-beta/BMP signaling,pathway,,,,,,
+EGFR-RAS-MAPK signaling,pathway,,,,,,
+VEGF signaling / angiogenesis,pathway,,,,,,
+Nucleotide synthesis & DNA replication,pathway,,,,,,
+Prostaglandin synthesis,pathway,,,,,,
+Carbon dioxide hydration,pathway,,,,,,
+Complement cascade,pathway,,,,,,
+Smooth muscle contraction,pathway,,,,,,
+Cetuximab,drug,,,,,,approved (CRC)
+Panitumumab,drug,,,,,,approved (CRC)
+Bevacizumab,drug,,,,,,approved (CRC)
+Encorafenib,drug,,,,,,approved (CRC)
+Sotorasib,drug,,,,,,approved (CRC)
+Adagrasib,drug,,,,,,approved (CRC)
+Fluorouracil,drug,,,,,,approved (CRC)
+Capecitabine,drug,,,,,,approved (CRC)
+Irinotecan,drug,,,,,,approved (CRC)
+Aspirin,drug,,,,,,approved (other indication)
+Acetazolamide,drug,,,,,,approved (other indication)
+rs6983267,variant,,,,,,
+rs4939827,variant,,,,,,
+rs4444235,variant,,,,,,
+rs11196172,variant,,,,,,
+KRAS G12D,variant,,,,,,
+KRAS G12C,variant,,,,,,
+BRAF V600E,variant,,,,,,
+Ulcerative colitis,disease,,,,,,
+IL23R,gene,ENSG00000162594,5e-28,,,0.463,
+JAK2,gene,ENSG00000096968,2e-25,,,0.673,
+IL12B,gene,ENSG00000113302,1e-21,,,0.716,
+Ustekinumab,drug,,,,,,approved (UC)
+Tofacitinib,drug,,,,,,approved (UC)
