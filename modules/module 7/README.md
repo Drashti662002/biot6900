@@ -8,7 +8,7 @@
 | File | What it is |
 |---|---|
 | `BIOT6900_Module7_Starter.ipynb` | **The graded notebook**, Restart & Run All with outputs |
-| `Module7_report.pdf` | **The report** (4 pages) |
+| `Module7_report.pdf` | **The report** |
 | `Module7_report.docx` | Word source of the report |
 | `my_knowledge_graph.png` | Graph figure, coloured by node type, with legend |
 | `nodes.csv`, `edges.csv` | Node and edge export (every edge has `source` and `confidence`) |
