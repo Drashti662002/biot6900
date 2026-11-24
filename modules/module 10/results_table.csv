@@ -1,0 +1,15 @@
+metric,model_clean | attempt1_4x4_grey,model_confounded | attempt1_4x4_grey,model_clean | attempt2_6x6_blurred,model_confounded_v2 | attempt2_6x6_blurred
+Validation accuracy (own val set),0.9675,0.9700,0.9675,0.9900
+Test accuracy (clean test tiles),0.9500,0.9550,0.9500,0.9417
+"Tumour recall, clean test",0.9433,0.9433,0.9433,0.8967
+"Normal specificity, clean test",0.9567,0.9667,0.9567,0.9867
+"Tumour recall, test WITH marker",0.9400,0.9500,0.9400,0.9800
+"Tumour recall, test WITHOUT marker",0.9433,0.9433,0.9433,0.8967
+Recall gap (with - without),-0.0033,0.0067,-0.0033,0.0833
+Normal->tumour flip rate (% of normal test tiles),0.6667,1.0000,1.0000,19.6667
+"Mean change in p(tumour), normal tiles",0.0023,0.0115,0.0011,0.1893
+"Mean change in p(tumour), tumour tiles",0.0003,0.0137,-0.0025,0.1320
+"Grad-CAM share in marker corner, example tile (%)",0.1212,0.3521,0.6135,2.4481
+"Grad-CAM share in marker corner, mean of marked tumour tiles (%)",0.3075,0.4024,0.6116,2.2339
+"Occlusion share in marker corner, example tile (%)",0.0000,0.0000,0.0000,0.0000
+"Marker corner area share (reference, %)",0.3906,0.3906,0.8789,0.8789
