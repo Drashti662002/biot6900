@@ -43,3 +43,4 @@ modules/module 6/part3_crc/build.log
 .env
 Neo4j-*.txt
 *.credentials
+~$*
