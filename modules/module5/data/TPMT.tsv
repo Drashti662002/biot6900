@@ -1,0 +1,36 @@
+hgvs_g	rsid	gene	clinvar_id	consequence	consequence_all	aa_change	cadd_phred	revel	alphamissense	gnomad_af	clinvar_sig	clinvar_stars
+chr6:g.18130702A>G	rs781105138	TPMT	2262150	missense_variant	missense_variant	L235P	25.7	0.413	0.7482	1.19394e-05	Uncertain significance	1
+chr6:g.18148997T>C	rs763783722	TPMT	2555793	missense_variant	missense_variant	Q44R	12.28	0.063	0.0845	6.56849e-06	Uncertain significance	1
+chr6:g.18133860C>T	rs771757151	TPMT	2236396	missense_variant	missense_variant	G175E	1.414	0.146	0.1357	5.5685e-05	Uncertain significance	1
+chr6:g.18130687T>C	rs1142345	TPMT	12722	missense_variant	missense_variant	Y240C	28.3	0.703	0.4277	0.0431489	drug response	0
+chr6:g.18132137C>A	rs773986929	TPMT	3460505	missense_variant	missense_variant	L207F	24.8	0.606	0.2768	1.97088e-05	Uncertain significance	1
+chr6:g.18139694C>T	rs1784107642	TPMT	2656263	synonymous_variant	synonymous_variant		16.7				Likely benign	1
+chr6:g.18130762C>T	rs56161402	TPMT	12726	missense_variant	missense_variant	R215H	10.14	0.056	0.0719	0.00680321	drug response	0
+chr6:g.18139707C>G	rs773335632	TPMT	3460503	missense_variant	missense_variant;sequence_feature	G126A	22.8	0.506	0.2409	7.97137e-06	Uncertain significance	1
+chr6:g.18130716C>G		TPMT	2492466	missense_variant	missense_variant	W230C	34.0	0.634	0.8144		Uncertain significance	1
+chr6:g.18143627A>T	rs886061266	TPMT	356117	missense_variant	missense_variant	I112N	21.8	0.361	0.217		Uncertain significance	1
+chr6:g.18143724C>G	rs1800462	TPMT	12721	missense_variant	missense_variant	A80P	29.5	0.852	0.8779	0.00203108	drug response	0
+chr6:g.18133884G>C	rs74423290	TPMT	12727	missense_variant	missense_variant	A167G	12.49	0.339	0.1902	1.31529e-05	drug response	0
+chr6:g.18133887T>C	rs201695576	TPMT	625175	missense_variant	missense_variant	Y166C	24.6	0.878	0.6659	6.57505e-06	drug response	0
+chr6:g.18128886_18128887dup		TPMT	356089								Uncertain significance	1
+chr6:g.18139672G>A	rs372997906	TPMT	2339520	missense_variant	missense_variant	L138F	11.76	0.174	0.2129	3.95106e-05	Likely benign	1
+chr6:g.18149087G>A	rs762507236	TPMT	3181552	missense_variant	missense_variant;sequence_feature	S14L	23.1	0.205	0.0983	1.31553e-05	Uncertain significance	1
+chr6:g.18138983G>A	rs2842934	TPMT	356114	synonymous_variant	synonymous_variant		14.07			0.776419	Likely benign	1
+chr6:g.18130254C>T	rs528907381	TPMT	356108	3_prime_UTR_variant	3_prime_UTR_variant					0.000381373	Uncertain significance	1
+chr6:g.18149070T>C	rs1438651791	TPMT	2547397	missense_variant	missense_variant	K20E	13.97	0.14	0.0864	6.56953e-06	Uncertain significance	1
+chr6:g.18130758A>T	rs398122996	TPMT	92243	stop_gained	stop_gained	C216X	36.0			6.56961e-06	not provided	0
+chr6:g.18148995C>T		TPMT	3181550	missense_variant	missense_variant	G45R	29.3	0.512	0.6338		Uncertain significance	1
+chr6:g.18149032_18149033dup		TPMT	625172								drug response	0
+chr6:g.18143653C>T	rs1397979403	TPMT	2656264	synonymous_variant	synonymous_variant		14.31			6.57125e-06	Likely benign	1
+chr6:g.18143668T>G	rs755583154	TPMT	3181551	missense_variant	missense_variant	E98D	17.88	0.098	0.2017	7.95754e-06	Uncertain significance	1
+chr6:g.18143728C>A	rs1256618794	TPMT	625173	missense_variant	missense_variant;splice_region_variant	W78C	34.0	0.81	0.8002	3.28645e-05	drug response	0
+chr6:g.18148999T>A	rs200148021	TPMT	2462509	missense_variant	missense_variant	E43D	10.6	0.095	0.1432	3.97804e-06	Uncertain significance	1
+chr6:g.18138997C>T	rs1800460	TPMT	12722	missense_variant	missense_variant;sequence_feature	A154T	28.3	0.52	0.5682	0.0258617	drug response	0
+chr6:g.18143700C>T	rs753545734	TPMT	625174	missense_variant	missense_variant	G88S	33.0	0.912	0.6609	3.28718e-05	drug response	0
+chr6:g.18133885C>T		TPMT	3328294	missense_variant	missense_variant	A167T	11.43	0.087	0.1128		Uncertain significance	1
+chr6:g.18139041C>T	rs56019966	TPMT	143913	splice_region_variant	intron_variant;splice_region_variant		12.98			0.00134748	drug response	0
+chr6:g.18129766_18129769del		TPMT	356102	3_prime_UTR_variant	3_prime_UTR_variant					0.00349508	Uncertain significance	1
+chr6:g.18130773T>C		TPMT	3460504	missense_variant	missense_variant	I211M	0.034	0.078	0.1011		Uncertain significance	1
+chr6:g.18130781C>T	rs1800584	TPMT	12723	splice_acceptor_variant	intron_variant;sequence_feature;splice_acceptor_variant		23.7			1.97226e-05	drug response	0
+chr6:g.18133807G>A		TPMT	3328295	missense_variant	missense_variant	P193S	10.93	0.02	0.107		Uncertain significance	1
+chr6:g.18139709C>T	rs760980416	TPMT	3048487	synonymous_variant	synonymous_variant		19.85			4.66306e-05	Likely benign	0

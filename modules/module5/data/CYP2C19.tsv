@@ -1,0 +1,81 @@
+hgvs_g	rsid	gene	clinvar_id	consequence	consequence_all	aa_change	cadd_phred	revel	alphamissense	gnomad_af	clinvar_sig	clinvar_stars
+chr10:g.94781944G>A	rs375781227	CYP2C19	633854	missense_variant	missense_variant	D256N	20.8	0.145	0.1369	6.58111e-06	drug response	4
+chr10:(?_96501534)_(96548712_?)del		CYP2C19	689097								Uncertain significance	0
+chr10:g.94852765C>T	rs192154563	CYP2C19	633849	missense_variant	missense_variant	R442C	32.0	0.382	0.3969	9.2029e-05	drug response	4
+chr10:g.94761665G>A	rs7902257	CYP2C19	633851	upstream_gene_variant	intergenic_region;upstream_gene_variant					0.0221326	drug response	4
+chr10:g.94820631G>A	rs1005681217	CYP2C19	3270571	missense_variant	missense_variant	V319I	13.41	0.14	0.0983	6.57099e-06	Uncertain significance	1
+chr10:g.94762742T>A	rs781038277	CYP2C19	3270572	missense_variant	missense_variant	C13S	9.547	0.092	0.1155	1.31415e-05	Uncertain significance	1
+chr10:(?_96497260)_(96558710_?)del		CYP2C19	1340013								Likely benign	0
+chr10:g.94842942A>C	rs371241592	CYP2C19	3079515	missense_variant	missense_variant	Q356P	23.6	0.518	0.8658	6.56883e-06	Uncertain significance	1
+chr10:g.94852850C>T		CYP2C19	2618711	missense_variant	missense_variant	T470I	15.84	0.177	0.1316		Uncertain significance	1
+chr10:g.94762788A>T	rs1564656981	CYP2C19	634036	missense_variant	missense_variant	K28I	9.854	0.083	0.1915		drug response	4
+chr10:g.94775416T>C	rs41291556	CYP2C19	39351	missense_variant	missense_variant	W120R	25.7	0.44	0.9402	0.00157144	other	1
+chr10:g.94762706A>G	rs28399504	CYP2C19	16900	start_lost	start_lost	M1V	15.94	0.314		0.00237904	drug response	0
+chr10:g.94775106C>T	rs145328984	CYP2C19	633848	missense_variant	missense_variant	R73C	26.0	0.125	0.2085	0.00088093	drug response	4
+chr10:(?_96533912)_(96598380_?)del		CYP2C19	686499								Uncertain significance	0
+chr10:g.94775488C>A	rs368767518	CYP2C19	2476783	missense_variant	missense_variant	R144S	27.9	0.44	0.6492	3.97738e-06	Uncertain significance	1
+chr10:(?_96502305)_(96562508_?)del		CYP2C19	686609								Uncertain significance	0
+chr10:g.94762856A>G	rs1564657013	CYP2C19	633933	missense_variant	missense_variant	S51G	0.13	0.014	0.0763		drug response	4
+chr10:g.94850018A>C	rs17886522	CYP2C19	1276601	synonymous_variant	synonymous_variant		0.02			0.00830934	Benign	2
+chr10:(?_96562918)_(96606761_?)del		CYP2C19	686189								Uncertain significance	0
+chr10:g.94781822T>C		CYP2C19	2286220	missense_variant	missense_variant;splice_region_variant	I215T	13.03	0.229	0.5187		Uncertain significance	1
+chr10:g.94762712C>T	rs367543002	CYP2C19	633847	missense_variant	missense_variant	P3S	0.047	0.146	0.0783	0.000361652	drug response	4
+chr10:g.94775071A>G	rs1848387818	CYP2C19	3837855	missense_variant	missense_variant	Y61C	23.9	0.518	0.1916		Uncertain significance	1
+chr10:g.94775133G>A	rs1175482704	CYP2C19	2531522	missense_variant	missense_variant	V82M	22.2	0.146	0.1953	1.31473e-05	Uncertain significance	1
+chr10:g.94775453G>A	rs72552267	CYP2C19	39350	missense_variant	missense_variant	R132Q	23.0	0.303	0.4065	0.000328727	drug response	4
+chr10:g.94780579G>A	rs370803989	CYP2C19	633840	missense_variant	missense_variant	D188N	19.64	0.119	0.1286	4.60648e-05	drug response	4
+chr10:g.94850007G>C		CYP2C19	3079516	missense_variant	missense_variant	D414H	24.1	0.19	0.4365		Uncertain significance	1
+chr10:g.94762804C>T	rs17885098	CYP2C19	769226	synonymous_variant	synonymous_variant					0.919465	Benign	1
+chr10:g.94775160G>C	rs118203756	CYP2C19	634042	missense_variant	missense_variant	G91R	23.3	0.25	0.5267	2.62954e-05	drug response	4
+chr10:(?_96558287)_(96606761_?)del		CYP2C19	685065								Uncertain significance	0
+chr10:g.94762715T>C	rs367543003	CYP2C19	633847	missense_variant	missense_variant	F4L	0.047	0.057	0.2764	0.000381318	drug response	4
+chr10:g.94852834A>G	rs1312830418	CYP2C19	3837853	missense_variant	missense_variant	K465E	1.896	0.045	0.0814	3.98004e-06	Uncertain significance	1
+chr10:g.94762755T>C	rs55752064	CYP2C19	634040	missense_variant	missense_variant	L17P	16.72	0.421	0.2091		drug response	4
+chr10:g.94775393T>C	rs372875966	CYP2C19	3837857	missense_variant	missense_variant	I112T	23.0	0.528	0.6001	6.57307e-06	Uncertain significance	1
+chr10:g.94780653G>A	rs4986893	CYP2C19	16899	stop_gained	stop_gained	W212X	35.0			0.00250566	drug response	0
+chr10:g.94781859G>A	rs4244285	CYP2C19	16897	synonymous_variant	synonymous_variant		5.686			0.167953	drug response	0
+chr10:g.94820586A>C		CYP2C19	3079520	missense_variant	missense_variant	T304P	23.7	0.506	0.6528		Uncertain significance	1
+chr10:g.94852738C>T	rs56337013	CYP2C19	16898	missense_variant	missense_variant	R433W	32.0	0.621	0.6101	1.31444e-05	drug response	0
+chr10:g.94852827T>G	rs200174624	CYP2C19	3837852	missense_variant	missense_variant	I462M	0.037	0.06	0.0753	1.31385e-05	Uncertain significance	1
+chr10:g.94762760A>C	rs17882687	CYP2C19	633844	missense_variant	missense_variant	I19L	0.125	0.091	0.0565	0.00573277	drug response	4
+chr10:g.94780508G>T	rs1589348980	CYP2C19	3837856	missense_variant	missense_variant	C164F	10.38	0.254	0.1088		Uncertain significance	1
+chr10:g.94780574G>C	rs140278421	CYP2C19	633843	missense_variant	missense_variant	R186P	25.3	0.209	0.8004	0.000374995	drug response	4
+chr10:g.94849995C>T	rs17879685	CYP2C19	633846	missense_variant	missense_variant	R410C	24.6	0.04	0.0815	0.00459633	drug response	4
+chr10:(?_96497751)_(96560546_?)del		CYP2C19	226207								Benign	1
+chr10:g.94762851A>T	rs1249995558	CYP2C19	3499184	missense_variant	missense_variant	D49V	22.0	0.264	0.2277	3.98016e-06	Uncertain significance	1
+chr10:g.94780631T>G	rs747232605	CYP2C19	2591511	missense_variant	missense_variant	I205S	9.06	0.141	0.3522	4.60284e-05	Uncertain significance	1
+chr10:g.94820635C>T	rs757115928	CYP2C19	3499185	missense_variant	missense_variant	T320I	12.64	0.084	0.1893	1.31439e-05	Uncertain significance	1
+chr10:g.94775185A>G	rs1288601658	CYP2C19	633841	missense_variant	missense_variant	H99R	0.001	0.038	0.0663	3.97633e-06	drug response	4
+chr10:g.94775489G>A	rs17884712	CYP2C19	39352	missense_variant	missense_variant	R144H	27.5	0.276	0.2135	0.00356969	drug response	4
+chr10:g.94849940C>A	rs935030527	CYP2C19	747762	synonymous_variant	synonymous_variant		4.546			1.31461e-05	Likely benign	1
+chr10:g.94852785C>G	rs118203759	CYP2C19	633935	missense_variant	missense_variant	F448L	23.1	0.254	0.7979	3.97883e-06	drug response	4
+chr10:g.94761267T>C	rs17878739	CYP2C19	633844	upstream_gene_variant	intergenic_region;upstream_gene_variant		0.125			0.00553489	drug response	4
+chr10:g.94775367A>G	rs12769205	CYP2C19	633850	intron_variant	intron_variant		5.31			0.173336	drug response	4
+chr10:g.94781842A>G		CYP2C19	3079519	missense_variant	missense_variant	I222V	0.001	0.007	0.0796		Uncertain significance	1
+chr10:g.94781858C>T	rs6413438	CYP2C19	39353	missense_variant	missense_variant	P227L	26.1	0.562	0.2916	0.000922485	drug response	4
+chr10:g.94781999T>A	rs72558186	CYP2C19	39348	splice_donor_variant	intron_variant;splice_donor_variant						drug response	4
+chr10:g.94781859G>T	rs4244285	CYP2C19	1703261	synonymous_variant	synonymous_variant		2.606				drug response	0
+chr10:g.94849964A>G	rs377184510	CYP2C19	633890	synonymous_variant	synonymous_variant		24.2			1.97176e-05	drug response	4
+chr10:(?_96534277)_(96599102_?)del		CYP2C19	687213								Uncertain significance	0
+chr10:g.94760686C>A	rs111490789	CYP2C19	633844	upstream_gene_variant	intergenic_region;upstream_gene_variant		0.125			0.00555132	drug response	4
+chr10:g.94775121C>T	rs1564660997	CYP2C19	633852	missense_variant	missense_variant	H78Y	0.002	0.062	0.1252		drug response	4
+chr10:g.94852914A>C	rs55640102	CYP2C19	633853	stop_lost	stop_lost	X491C	13.03			0.000354857	drug response	4
+chr10:g.94645745G>A	rs12777823	CYP2C19	225947	intergenic_region	intergenic_region		0.725			0.190437	drug response	3
+chr10:g.94760676C>T	rs113164681	CYP2C19	633844	upstream_gene_variant	intergenic_region;upstream_gene_variant		0.125			0.00552595	drug response	4
+chr10:g.94761900C>T	rs12248560	CYP2C19	39357	upstream_gene_variant	intergenic_region;upstream_gene_variant		3.031			0.20012	Benign; other	2
+chr10:g.94775450T>C	rs371309036	CYP2C19	2472781	missense_variant	missense_variant	L131P	24.0	0.407	0.9268	6.57428e-06	Uncertain significance	1
+chr10:g.94775507G>A	rs58973490	CYP2C19	633845	missense_variant	missense_variant	R150H	5.725	0.062	0.0876	0.00288561	drug response	4
+chr10:g.94775462G>T	rs760289518	CYP2C19	3499183	missense_variant	missense_variant	G135V	25.9	0.506	0.9204		Uncertain significance	1
+chr10:g.94780612G>A		CYP2C19	2315618	missense_variant	missense_variant	E199K	0.047	0.061	0.0922		Uncertain significance	1
+chr10:g.94842866A>G	rs3758581	CYP2C19	39354	missense_variant	missense_variant	I331V			0.0628	0.95225	Benign	1
+chr10:g.94842934C>T	rs17882744	CYP2C19	2640706	synonymous_variant	synonymous_variant		9.877			0.00502727	Benign	1
+chr10:g.94842960T>C	rs1342382950	CYP2C19	2291107	missense_variant	missense_variant	I362T	12.01	0.169	0.5712	1.31408e-05	Uncertain significance	1
+chr10:g.94842969G>C	rs1384476546	CYP2C19	2465938	missense_variant	missense_variant	S365T	0.73	0.121	0.2042	6.57117e-06	Uncertain significance	1
+chr10:g.94849955T>A		CYP2C19	2283328	missense_variant	missense_variant	H396Q	1.451	0.043	0.2413		Uncertain significance	1
+chr10:g.94842861G>A	rs138142612	CYP2C19	633842	missense_variant	missense_variant	R329H	9.743	0.082	0.0782	4.60133e-05	drug response	4
+chr10:g.94842879G>A	rs118203757	CYP2C19	633890	missense_variant	missense_variant	R335Q	24.2	0.239	0.1295	0.000177498	drug response	4
+chr10:g.94842995G>A	rs113934938	CYP2C19	633844	missense_variant	missense_variant	V374I	0.125	0.125	0.0835	1.31422e-05	drug response	4
+chr10:g.94850019A>G	rs776970249	CYP2C19	3079517	missense_variant	missense_variant	N418D	19.19	0.061	0.1469	2.62905e-05	Uncertain significance	1
+chr10:g.94852847C>A	rs1849675882	CYP2C19	3837854	missense_variant	missense_variant	T469K	16.78	0.023	0.1928		Uncertain significance	1
+chr10:g.94762774C>G	rs1321377551	CYP2C19	3499186	missense_variant	missense_variant	S23R	0.002	0.083	0.1141	6.57315e-06	Likely benign	1
+chr10:g.94775149T>A	rs758114852	CYP2C19	3079518	missense_variant	missense_variant	L87Q	25.2	0.557	0.6943	3.9764e-06	Uncertain significance	1

@@ -1,5 +1,10 @@
 # BIOT 6900 coursework — Drashti Bharat Bhanushali
 
+Precision-medicine coursework built end to end on one disease: **colon
+adenocarcinoma (COAD)**. Every module uses the same disease, so the modules
+compose — Module 2's ranked target list feeds Module 3, and the Part II labs
+(5–8) are synthesised in the two portfolio deliverables.
+
 ## Repository layout
 
 Each module is a self-contained folder. **Open notebooks from inside their own
@@ -16,10 +21,18 @@ modules/
 │   └── targets_coad.csv  -> ../module2/targets_coad.csv
 ├── module4/   predicted structures and drug pockets
 │   └── structures/  -> shared/module4_structures
-└── module5/   variant interpretation from first principles (no data needed)
+├── module5/   variant interpretation and pharmacogenomics
+├── module 6/  polygenic risk scores (part3_crc = the graded colorectal run)
+├── module 7/  Neo4j knowledge graph of COAD targets, drugs and variants
+├── module 8/  single-cell and spatial transcriptomics (ERBB2)
+├── module 9/  clinical NLP and label leakage
+└── module 10/ medical imaging and confounder detection
 
-shared/        one physical copy of every large dataset
-docs/          lab guides (PDF)
+shared/          one physical copy of every large dataset
+docs/            lab guides (PDF)
+deliverable_1/   Portfolio Deliverable 1 — Part I target triage
+deliverable_2/   Portfolio Deliverable 2 — Part II COAD case study
+deliverables/    the individual Lab 5-8 reports
 ```
 
 The `data/` and `structures/` entries inside each module are **symlinks** into
@@ -167,10 +180,100 @@ unzip `BIOT6900_Module3_DataPack.zip` into `shared/module3_pack/`.
 PDB entries on first run. Section 2.6 needs `fpocket`
 (`conda install -c conda-forge fpocket`).
 
-## Module 5 — Variant interpretation from first principles
+## Module 5 — Variant interpretation and pharmacogenomics
 
-`BIOT6900_Module5_Part1_Toy.ipynb` only. No data files, no downloads, no
-network: the toy gene is 90 bases written into the notebook.
+`BIOT6900_Module5_Part1_Toy.ipynb` needs nothing: the toy gene is 90 bases
+written into the notebook. Part 2 and the graded Part 3 pull real variants from
+MyVariant.info and score them with CADD, REVEL and AlphaMissense. The graded run
+calibrates CADD across five pharmacogenes (DPYD, CYP2C19, CYP2C9, TPMT, VKORC1)
+and reports a positive likelihood ratio per score band.
+
+`modules/module5/data/*.tsv` are the cached MyVariant.info fetches, one per
+gene. They are committed because Deliverable 2 quotes per-variant scores out of
+them; delete one and re-run the notebook to refetch it.
+
+## Module 6 — Polygenic risk scores
+
+The graded colorectal run is `part3_crc/BIOT6900_Module6_Part3_Graded_CRC.ipynb`:
+PGS000148 applied to 1000 Genomes genotypes across five ancestries, with
+discrimination, calibration and tag-causal r² per ancestry.
+
+**The phenotype in this lab is simulated.** It is generated from the score, so
+the AUCs measure the simulation, not clinical performance. Every figure and
+claim derived from it is flagged as simulated.
+
+```bash
+cd "modules/module 6/part3_crc" && python prepare_crc_data.py   # needs bcftools
+```
+
+## Module 7 — Knowledge graph
+
+`BIOT6900_Module7_Starter.ipynb` builds a 54-node, 61-edge COAD graph in Neo4j
+AuraDB, then runs PageRank, greedy-modularity communities and multi-hop Cypher.
+Every edge carries a source and a confidence. `nodes.csv`, `edges.csv`,
+`data/targets_coad.csv` and `data/gwas_lookup.csv` are committed, so the
+analysis is reproducible without a database.
+
+### Neo4j credentials
+
+Credentials are **never committed**. Put them in `modules/module 7/.env`, which
+is gitignored along with `Neo4j-*.txt` and `*.credentials`:
+
+```bash
+NEO4J_URI=neo4j+s://YOUR-INSTANCE.databases.neo4j.io
+NEO4J_USERNAME=YOUR-INSTANCE-ID     # the instance ID, not "neo4j"
+NEO4J_PASSWORD=YOUR-PASSWORD
+```
+
+The notebooks read these with `os.environ.get`, and the values checked into the
+notebooks are placeholders.
+
+## Module 8 — Single-cell and spatial transcriptomics
+
+`BIOT6900_Module8_Assignment_Starter.ipynb`: ERBB2 across cell types in a CZ
+CELLxGENE Census breast-cancer subset, integrated with Harmony and scVI and
+compared by silhouette score, then a 10x Visium section analysed with Squidpy
+(Moran's I, neighbourhood enrichment).
+
+## Module 9 — Clinical NLP
+
+Label leakage in community-acquired pneumonia notes: the phrase that predicts
+the label is the phrase a clinician writes *because* of the label.
+
+## Module 10 — Imaging and confounder detection
+
+`BIOT6900_Module10_Confounder_Experiment.ipynb` trains a MONAI DenseNet121 on
+PathMNIST tumour vs normal, then injects a corner artifact into one class only
+and tests whether Grad-CAM, occlusion and a clean control model can detect the
+shortcut. CPU only. The raw `.npz` is never modified — arrays are copied in
+memory.
+
+## Portfolio deliverables
+
+| Folder | What it is |
+|---|---|
+| `deliverable_1/` | Part I target triage: the 15-gene evidence table and its write-up. |
+| `deliverable_2/` | Part II COAD case study synthesising Labs 5–8 and Deliverable 1. `Portfolio_deliverable_Drashti.pdf` is the submitted document; `inventory.md` and `provenance.md` trace every number to the file or notebook cell it came from. |
+
+Deliverable 2 performs no new analysis: `build_evidence_table.py` and
+`make_figures.py` only read saved lab outputs and re-plot them.
+
+## Data sources
+
+All open access, no data use agreement.
+
+| Source | Used in |
+|---|---|
+| TCGA-COAD (UCSC Xena GDC hub) | Module 2 RNA layer |
+| CPTAC-2 Prospective Colon Cancer (LinkedOmics) | Module 2 protein and mutation layers |
+| ClinVar and gnomAD, via MyVariant.info | Module 5 |
+| PGS Catalog (PGS000148) | Module 6 |
+| 1000 Genomes Phase 3 | Module 6 genotypes |
+| GWAS Catalog | Modules 1, 6, 7 |
+| ChEMBL, Reactome, HPO | Module 7 edges |
+| CZ CELLxGENE Census | Module 8 single-cell |
+| 10x Genomics Visium (human breast cancer, block A section 1) | Module 8 spatial |
+| MedMNIST PathMNIST | Module 10 |
 
 ## Packages
 

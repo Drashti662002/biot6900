@@ -1,0 +1,67 @@
+hgvs_g,rsid,gene,clinvar_id,consequence,consequence_all,aa_change,cadd_phred,revel,alphamissense,gnomad_af,clinvar_sig,clinvar_stars,label
+chr1:g.97549746T>G,rs1057516713,DPYD,2633588.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,6.57151e-06,Likely pathogenic,1,P/LP
+chr1:g.97828113C>A,rs1553247675,DPYD,554296.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,2,P/LP
+chr1:g.97450068del,,DPYD,3241357.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97573797del,,DPYD,2674930.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97593217C>G,,DPYD,3370431.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,0,P/LP
+chr1:g.97679184T>C,rs1300669537,DPYD,552475.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,1.31422e-05,Likely pathogenic,1,P/LP
+chr1:g.97721641_97721642del,,DPYD,2674950.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97515943T>C,,DPYD,2674926.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97373561_97373576del,,DPYD,188871.0,frameshift_variant,frameshift_variant,,,,,3.28593e-05,Likely pathogenic,2,P/LP
+chr1:g.97450200del,,DPYD,632121.0,frameshift_variant,frameshift_variant,,,,,6.57177e-06,Likely pathogenic,2,P/LP
+chr1:g.97593310_97593311dup,,DPYD,2674933.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97573783del,,DPYD,370780.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,2,P/LP
+chr1:g.97721509C>A,rs1057516763,DPYD,370782.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,6.597e-06,Likely pathogenic,1,P/LP
+chr1:g.97699486_97699487dup,,DPYD,2674907.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97373560C>G,rs769167857,DPYD,370923.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97883294_97883295delinsG,,DPYD,2674928.0,frameshift_variant,frameshift_variant;synonymous_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97699414del,,DPYD,2674955.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97740390A>G,rs1193078195,DPYD,3370432.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,7.96495e-06,Likely pathogenic,0,P/LP
+chr1:g.97883262A>T,rs1057516405,DPYD,370330.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97450184del,,DPYD,2674915.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97721548_97721549dup,,DPYD,2674909.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97699350C>A,rs867460475,DPYD,2674940.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97573788del,,DPYD,371335.0,frameshift_variant,frameshift_variant;sequence_feature,,,,,,Likely pathogenic,2,P/LP
+chr1:g.97549745C>T,rs1435774234,DPYD,3241358.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,4.01149e-06,Likely pathogenic,1,P/LP
+chr1:(?_97757431)_(97798061_?)del,,DPYD,686684.0,,,,,,,,Pathogenic,0,P/LP
+chr1:g.97595057A>G,rs1654782224,DPYD,2674936.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97373616del,,DPYD,371160.0,frameshift_variant,frameshift_variant;sequence_feature,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97883372_97883380del,,DPYD,2674905.0,splice_acceptor_variant,conservative_inframe_deletion;intron_variant;splice_acceptor_variant;splice_region_variant,,,,,6.57497e-06,Likely pathogenic,1,P/LP
+chr1:g.97549723_97549724dup,,DPYD,2674901.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97699549T>C,rs928629166,DPYD,2674922.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97573921del,,DPYD,557959.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,2,P/LP
+chr1:g.97595107del,,DPYD,370713.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97679183C>T,,DPYD,3241363.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97883280_97883287del,rs1207177925,DPYD,502676.0,frameshift_variant,frameshift_variant,,,,,6.57488e-06,Likely pathogenic,2,P/LP
+chr1:g.97549746T>C,rs1057516713,DPYD,370715.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97699508del,,DPYD,371088.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97373579_97373580dup,,DPYD,371596.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97515942C>G,,DPYD,2674949.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97549696_97549709del,,DPYD,2674906.0,frameshift_variant,frameshift_variant,,,,,1.31401e-05,Likely pathogenic,1,P/LP
+chr1:g.97699350C>T,rs867460475,DPYD,371334.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,1.31544e-05,Likely pathogenic,2,P/LP
+chr1:g.97515751_97515752dup,,DPYD,2674931.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97515892_97515898delinsGT,,DPYD,3241367.0,frameshift_variant,frameshift_variant;missense_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97549698del,rs1437370264,DPYD,2674939.0,frameshift_variant,frameshift_variant,,,,,1.31451e-05,Likely pathogenic,1,P/LP
+chr1:g.97573759C>A,rs1057516357,DPYD,370261.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97593352_97593353dup,,DPYD,2674921.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97549704_97549705dup,,DPYD,371469.0,,,,,,,,Likely pathogenic,2,P/LP
+chr1:g.97721672C>G,rs1057516356,DPYD,370259.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97515856_97515866del,,DPYD,3241361.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97679133del,,DPYD,2674913.0,frameshift_variant,frameshift_variant,,,,,,Pathogenic,1,P/LP
+chr1:g.97382397del,rs1057516710,DPYD,370712.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97691715A>G,rs1057517065,DPYD,371177.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97828198T>G,rs1669337684,DPYD,1032888.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Pathogenic,1,P/LP
+chr1:g.97373636_97373642del,,DPYD,813354.0,frameshift_variant,frameshift_variant,,,,,1.1955e-05,Likely pathogenic,2,P/LP
+chr1:g.97549566del,rs1057516615,DPYD,370593.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97828127_97828134delinsATTG,,DPYD,2674934.0,stop_gained,frameshift_variant;stop_gained,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97082404_97082405dup,,DPYD,2674918.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97549559C>T,rs1057517126,DPYD,371253.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,3.9854e-06,Likely pathogenic,1,P/LP
+chr1:g.97595167C>G,rs1057516696,DPYD,370698.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97515739del,,DPYD,370256.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97082329C>G,rs2101557799,DPYD,2674944.0,splice_donor_variant,intron_variant;splice_donor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97082401del,,DPYD,2674948.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97450056_97450057dup,,DPYD,2674929.0,,,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97515795del,rs1057517018,DPYD,371114.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97593225del,,DPYD,553633.0,frameshift_variant,frameshift_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97699548C>T,rs2100972539,DPYD,2674951.0,splice_acceptor_variant,intron_variant;splice_acceptor_variant,,,,,,Likely pathogenic,1,P/LP
+chr1:g.97883329A>G,rs1801265,DPYD,435.0,missense_variant,missense_variant,C29R,,,0.0426,0.273227,Pathogenic,0,P/LP

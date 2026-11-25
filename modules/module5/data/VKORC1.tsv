@@ -1,0 +1,54 @@
+hgvs_g	rsid	gene	clinvar_id	consequence	consequence_all	aa_change	cadd_phred	revel	alphamissense	gnomad_af	clinvar_sig	clinvar_stars
+chr16:g.31091334G>A	rs72547528	VKORC1	2206	missense_variant	missense_variant;upstream_gene_variant		23.9	0.189	0.1314	1.31391e-05	Pathogenic	0
+chr16:g.31093393G>A	rs145273772	VKORC1	887601	missense_variant	intron_variant;missense_variant;upstream_gene_variant		12.21	0.268	0.1312	0.000276025	Uncertain significance	1
+chr16:g.31093328T>A	rs200133418	VKORC1	318976	synonymous_variant	intron_variant;synonymous_variant;upstream_gene_variant	T110S	15.25	0.187	0.3252	6.57973e-06	Uncertain significance	1
+chr16:g.31096316_31096317dup		VKORC1	60671								drug response	0
+chr16:g.31096368C>C		VKORC1	166563								drug response	0
+chr16:g.31091179A>G	rs2057286672	VKORC1	887423	synonymous_variant	3_prime_UTR_variant;synonymous_variant;upstream_gene_variant		6.735				Uncertain significance	1
+chr16:g.31094618C>G	rs774078258	VKORC1	3188665	missense_variant	missense_variant	D38H	12.92	0.533	0.2778	8.5378e-05	Uncertain significance	1
+chr16:g.31090889C>T	rs886051932	VKORC1	318973	3_prime_UTR_variant	3_prime_UTR_variant;upstream_gene_variant					0.000144587	Uncertain significance	1
+chr16:g.31094601G>A	rs61742233	VKORC1	791061	synonymous_variant	synonymous_variant		14.79			0.00385606	Benign/Likely benign	2
+chr16:g.31092864T>C	rs371197517	VKORC1	3033207	missense_variant	intron_variant;missense_variant;upstream_gene_variant	D95G	1.75	0.229	0.0711	0.000575536	Benign	0
+chr16:g.31093188C>G	rs8050894	VKORC1	226026	intron_variant	intron_variant;upstream_gene_variant		5.156			0.377051	drug response	3
+chr16:g.31094666G>A	rs759258204	VKORC1	2646468	missense_variant	missense_variant	L22F	23.5	0.699	0.4534	8.60474e-06	Uncertain significance	1
+chr16:g.31094613G>A	rs2057315206	VKORC1	884452	synonymous_variant	synonymous_variant		8.564				Uncertain significance	1
+chr16:g.31094676C>A	rs771891906	VKORC1	884453	synonymous_variant	synonymous_variant		17.32			1.31389e-05	Uncertain significance	1
+chr16:g.31094624C>A	rs61742245	VKORC1	2212	missense_variant	missense_variant	D36Y	25.1	0.648	0.4919	0.0014843	Pathogenic	0
+chr16:g.31094645C>A	rs104894539	VKORC1	2207	missense_variant	missense_variant	V29L	33.0	0.862	0.8778	1.31349e-05	Pathogenic	0
+chr16:g.31094690C>T	rs993371943	VKORC1	2619219	missense_variant	missense_variant	A14T	24.8	0.591	0.1407	6.56858e-06	Uncertain significance	1
+chr16:g.31096368C>T	rs9923231	VKORC1	2211	upstream_gene_variant	intergenic_region;upstream_gene_variant		2.46			0.319272	Pathogenic; drug response	0
+chr16:g.31093413C>T		VKORC1	3188667	missense_variant	intron_variant;missense_variant;upstream_gene_variant	R61K	6.722	0.359	0.1264		Uncertain significance	1
+chr16:g.31093557G>A	rs9934438	VKORC1	37344	intron_variant	intron_variant;upstream_gene_variant		10.42			0.319177	Pathogenic; drug response	0
+chr16:g.31093188C>T	rs8050894	VKORC1	1316884	intron_variant	intron_variant;upstream_gene_variant					0.000330621	Likely benign	1
+chr16:g.31094596A>G	rs104894540	VKORC1	2208	missense_variant	missense_variant	V45A	23.6	0.877	0.4709		Pathogenic	0
+chr16:g.31087679C>T	rs201075024	VKORC1	369110	missense_variant	downstream_gene_variant;missense_variant	G34S	26.2	0.295	0.1244	0.0160277	Benign	1
+chr16:g.31091274C>G	rs753570105	VKORC1	887598	missense_variant	missense_variant;upstream_gene_variant		9.022	0.308	0.1774	0.000131399	Likely benign	1
+chr16:g.31092854C>T	rs370105350	VKORC1	3045115	missense_variant	intron_variant;missense_variant;upstream_gene_variant		4.132			0.00107523	Likely benign	0
+chr16:g.31094694C>A	rs55894764	VKORC1	2629952	synonymous_variant	synonymous_variant		19.14			1.31359e-05	Uncertain significance	1
+chr16:g.31094731A>G	rs745707367	VKORC1	884454	5_prime_UTR_variant	5_prime_UTR_variant		14.97			3.9426e-05	Uncertain significance	1
+chr16:g.31090989A>G	rs886051933	VKORC1	318974	3_prime_UTR_variant	3_prime_UTR_variant;upstream_gene_variant						Uncertain significance	1
+chr16:g.31094694C>T	rs55894764	VKORC1	318977	synonymous_variant	synonymous_variant		15.25			0.0130708	Benign	1
+chr16:g.31094889C>G	rs569737355	VKORC1	318978	5_prime_UTR_variant	5_prime_UTR_variant					0.000729093	Uncertain significance	1
+chr16:g.31091000C>T	rs7294	VKORC1	226016	3_prime_UTR_variant	3_prime_UTR_variant;upstream_gene_variant		2.855			0.402893	drug response	3
+chr16:g.31091284G>C	rs2057287810	VKORC1	887599	missense_variant	missense_variant;synonymous_variant;upstream_gene_variant	R135G	10.83	0.249	0.0803		Uncertain significance	1
+chr16:g.31092475A>G	rs2359612	VKORC1	225975	intron_variant	intron_variant;upstream_gene_variant		8.857			0.649185	drug response	3
+chr16:g.31090891C>T	rs141753512	VKORC1	887420	3_prime_UTR_variant	3_prime_UTR_variant;upstream_gene_variant		14.1			0.000256296	Likely benign	1
+chr16:g.31094233A>C	rs2884737	VKORC1	225983	intron_variant	intron_variant		0.371			0.179911	drug response	3
+chr16:g.31094546C>A	rs201515545	VKORC1	887602	intron_variant	intron_variant		10.2			5.91055e-05	Uncertain significance	1
+chr16:g.31091243A>C	rs104894542	VKORC1	2210	missense_variant	missense_variant;synonymous_variant;upstream_gene_variant	L128R	28.3	0.975	0.6038	6.56875e-06	drug response	0
+chr16:g.31092475A>A		VKORC1	515931								Benign	1
+chr16:g.31094583G>C	rs2057314842	VKORC1	3815040	missense_variant	missense_variant	I49M	23.7	0.797	0.6036		Uncertain significance	1
+chr16:g.31093399C>T	rs72547529	VKORC1	692018	missense_variant	intron_variant;missense_variant;upstream_gene_variant		33.0	0.4	0.167	0.000801809	Pathogenic	1
+chr16:g.31093431G>A	rs766549609	VKORC1	3051916	intron_variant	intron_variant;upstream_gene_variant		8.56			4.60054e-05	Likely benign	0
+chr16:g.31094032G>A	rs17708472	VKORC1	225960	intron_variant	intron_variant		7.872			0.16411	Benign	1
+chr16:g.31093366T>A	rs755767348	VKORC1	3381146	missense_variant	intron_variant;missense_variant;upstream_gene_variant		32.0	0.866	0.8148	7.96014e-06	Likely pathogenic	1
+chr16:g.31093392T>C	rs201044348	VKORC1	887600	missense_variant	intron_variant;missense_variant;upstream_gene_variant	H68R	9.507	0.333	0.0932	0.000197197	Benign	1
+chr16:g.31094727C>T	rs886042699	VKORC1	283736	start_lost	sequence_feature;start_lost	M1I	23.0	0.515			Uncertain significance	1
+chr16:g.31090962A>T	rs2057284100	VKORC1	887421	3_prime_UTR_variant	3_prime_UTR_variant;upstream_gene_variant						Uncertain significance	1
+chr16:g.31091124G>C	rs2057286230	VKORC1	887422	3_prime_UTR_variant	3_prime_UTR_variant;upstream_gene_variant						Uncertain significance	1
+chr16:g.31091268G>A	rs7200749	VKORC1	318975	missense_variant	missense_variant;synonymous_variant;upstream_gene_variant	P140L	11.89	0.601	0.2387	0.0552671	Benign	1
+chr16:g.31094716C>G		VKORC1	3188666	missense_variant	missense_variant	W5S	25.9	0.68	0.1779		Uncertain significance	1
+chr16:g.31091247C>T	rs777707816	VKORC1	887424	missense_variant	missense_variant;sequence_feature;upstream_gene_variant		26.7	0.357	0.189	2.62885e-05	Uncertain significance	1
+chr16:g.31092852G>A		VKORC1	2630698	missense_variant	intron_variant;missense_variant;upstream_gene_variant	P99L		0.176	0.0922		Uncertain significance	1
+chr16:g.31094558T>C	rs104894541	VKORC1	2209	missense_variant	missense_variant;splice_region_variant	R58G	24.7	0.747	0.1709		Pathogenic	0
+chr16:g.31094774C>T	rs759852599	VKORC1	884455	5_prime_UTR_variant	5_prime_UTR_premature_start_codon_gain_variant;5_prime_UTR_variant						Uncertain significance	1

@@ -42,3 +42,4 @@ modules/module 6/part3_crc/build.log
 # Module 7: Neo4j Aura credentials (never commit)
 .env
 Neo4j-*.txt
+*.credentials
